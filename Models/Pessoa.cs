@@ -8,7 +8,7 @@ namespace C_.Models
     public class Pessoa
     {
 
-        //propriedades (digira prop) -> se há get e set = propriedades
+        //propriedades (digita prop) -> se há get e set = propriedades
         public String Nome { get; set; }
         public int Idade { get; set; }
 
