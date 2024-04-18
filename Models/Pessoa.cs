@@ -7,6 +7,19 @@ namespace C_.Models
 {
     public class Pessoa
     {
+        
+        public Pessoa(){
+
+        }
+
+        // Contrutor -- Sempre o mesmo nome da clase e não tem um retorno
+        public Pessoa(string nome, string sobrenome){
+
+            //[propriedade] = [o que veio de paramentro]
+            Nome = nome;
+            Sobrenome = sobrenome;
+
+        }
 
         //propriedades (digita prop) -> se há get e set = propriedades
 

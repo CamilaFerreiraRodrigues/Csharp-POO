@@ -5,7 +5,7 @@ p1.Nome = "Camila";
 p1.Idade = -1;
 p1.Sobrenome = "Fereira";
 
-p1.Apresentar();*/
+p1.Apresentar();
 
 // Pessoa 1
 Pessoa p1 = new Pessoa();
@@ -16,12 +16,13 @@ p1.Sobrenome = "Fereira";
 // Pessoa 2
 Pessoa p2 = new Pessoa();
 p2.Nome = "Michael";
-p2.Sobrenome = "Santos";
+p2.Sobrenome = "Santos";*/
 
 // Pessoa 3
-Pessoa p3 = new Pessoa();
-p3.Nome = "Davi";
-p3.Sobrenome = "Fereira";
+Pessoa p1 = new Pessoa("Davi", " Ferreira");
+Pessoa p2 = new Pessoa("Camila", " Ferreira");
+Pessoa p3 = new Pessoa("Micahel", " Ferreira");
+
 
 
 // Curso 
