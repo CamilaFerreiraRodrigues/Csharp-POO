@@ -12,7 +12,6 @@ namespace C_.Models
 
         // Se colocamos o get e set vazio -> aceita qualquer valor
 
-
         // deixando Nome obrigatorio - protegendo a propriedade Nome
         private string _nome;
         private int _idade;
@@ -31,8 +30,7 @@ namespace C_.Models
                     throw new ArgumentException("O nome não pode ser vazio");
                 }
                 _nome = value;
-            } 
-            
+            }  
             
         }
 
@@ -44,12 +42,9 @@ namespace C_.Models
 
        //Validando a Idade
 
-       
        public int Idade { 
         
         get => _idade;
-        
-        
         set{
             if (value < 0){
                 throw new ArgumentException("A idade não pode ser menor do que zero");
@@ -58,17 +53,12 @@ namespace C_.Models
 
             _idade = value;
         }
-        
-        
     }
-
-
-        // criando metodos (ações)
+        // Criando metodos (ações)
 
         public void Apresentar(){
             Console.WriteLine($"Nome: {NomeCompleto}, Idade: {Idade}");
         }
-
 
     }
 }
